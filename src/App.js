@@ -15,7 +15,7 @@ const App = () =>  {
   const RandomNum = Math.random();
   return (
     <div className='App'>
-      <p>{Test1 + Test2}</p>
+      <p>{Test1 + Test2 + Test2}</p>
 
       {
           RandomNum < 0.5 ?
